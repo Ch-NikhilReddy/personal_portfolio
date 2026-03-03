@@ -97,7 +97,7 @@ const Resume = () => {
 
     <div className="project-item">
         <h3>Web Development Intern – Unified Mentor</h3>
-        <p className="date">Duration: 1 Month | Mode: Virtual</p>
+        <p className="date">Duration: 3 Month | Mode: Virtual</p>
         <ul className="resume-list">
             <li>Worked on real-world web development projects using modern technologies.</li>
             <li>Developed responsive frontend components using HTML, CSS, and JavaScript.</li>
