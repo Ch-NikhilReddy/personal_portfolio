@@ -10,7 +10,7 @@ const Resume = () => {
                     <p className="resume-subtitle">B.Tech – Information Technology (3rd Year)</p>
                     <div className="contact-info">
                         <span>📍 Telangana, India</span>
-                        <span>🔗 LinkedIn: <a href="https://www.linkedin.com/in/chittepu-nikhil-reddy-3a78172b6" target="_blank" rel="noopener noreferrer">chittepu-nikhil-reddy-3a78172b6</a></span>
+                        <span>[ GitHub ]: <a href="https://github.com/Ch-NikhilReddy" target="_blank" rel="noopener noreferrer">Ch.Nikhil Reddy</a></span>
                         <span>📄 <a href="/pdf/Resume.pdf" download="Nikhil_Reddy_Resume.pdf" className="resume-download-link">Download PDF</a></span>
                     </div>
                 </header>
