@@ -18,7 +18,7 @@ const Contact = () => {
   const onSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post(`${API_URL}/contact`, formData);
+      const res = await axios.post(`${API_URL}/api/contact`, formData);
       console.log(res.data);
       alert('Message sent successfully!');
       setFormData({

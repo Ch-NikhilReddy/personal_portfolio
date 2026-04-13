@@ -1,3 +1,2 @@
-const API_URL = (window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : '/api');
-
+const API_URL = "https://personal-portfolio-j4w2.onrender.com";
 export default API_URL;
