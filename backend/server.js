@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const path = require('path');
 require('dotenv').config();
 
 const contactRoute = require('./routes/contact');
@@ -45,13 +44,6 @@ app.get('/api/health', (req, res) => {
 
 app.use('/api/contact', contactRoute);
 
-// Serve frontend (optional)
-const buildPath = path.resolve(__dirname, '../frontend/build');
-app.use(express.static(buildPath));
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(buildPath, 'index.html'));
-});
 
 // Start server
 app.listen(port, () => {
