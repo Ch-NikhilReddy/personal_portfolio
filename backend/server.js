@@ -3,6 +3,13 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 const contactRoute = require('./routes/contact');
+const cors = require('cors');
+
+app.use(cors({
+  origin: 'https://personal-portfolio-one-dusky-17.vercel.app',
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
 require('dotenv').config();
 
 const app = express();
