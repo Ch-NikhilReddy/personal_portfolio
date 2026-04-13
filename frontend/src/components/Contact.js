@@ -13,7 +13,8 @@ const Contact = () => {
 
   const { name, email, subject, message } = formData;
 
-  const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
+  const onChange = e =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const onSubmit = async e => {
     e.preventDefault();
@@ -40,28 +41,72 @@ const Contact = () => {
           <h2>Contact Me</h2>
           <p>Have a question or want to work together? Feel free to reach out!</p>
         </div>
+
         <form onSubmit={onSubmit} className="contact-form">
+
+          {/* Name */}
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" value={name} onChange={onChange} placeholder="Your Name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={name}
+              onChange={onChange}
+              placeholder="Your Name"
+              autoComplete="name"
+              required
+            />
           </div>
+
+          {/* Email */}
           <div className="form-group">
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" value={email} onChange={onChange} placeholder="Your Email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={email}
+              onChange={onChange}
+              placeholder="Your Email"
+              autoComplete="email"
+              required
+            />
           </div>
+
+          {/* Subject */}
           <div className="form-group">
             <label htmlFor="subject">Subject</label>
-            <input type="text" name="subject" value={subject} onChange={onChange} placeholder="Subject" required />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              value={subject}
+              onChange={onChange}
+              placeholder="Subject"
+              autoComplete="off"
+              required
+            />
           </div>
+
+          {/* Message */}
           <div className="form-group">
             <label htmlFor="message">Message</label>
-            <textarea name="message" value={message} onChange={onChange} placeholder="Your Message" required></textarea>
+            <textarea
+              id="message"
+              name="message"
+              value={message}
+              onChange={onChange}
+              placeholder="Your Message"
+              required
+            ></textarea>
           </div>
+
           <button type="submit" className="btn">Submit</button>
         </form>
       </div>
     </section>
   );
-}
+};
 
 export default Contact;
