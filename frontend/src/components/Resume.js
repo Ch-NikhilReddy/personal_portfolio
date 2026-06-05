@@ -118,7 +118,7 @@ const Resume = () => {
                         <div className="project-item">
                             <h3>
                                 Ecoyaan Checkout System &nbsp;·&nbsp;
-                                <a href="https://github.com/Ecoyaan-Checkout" target="_blank" rel="noopener noreferrer">GitHub</li></a>
+                                <a href="https://github.com/Ecoyaan-Checkout" target="_blank" rel="noopener noreferrer">GitHub</a>
                             </h3>
                             <p><strong>Stack:</strong> Next.js · React</p>
                             <ul className="resume-list">
