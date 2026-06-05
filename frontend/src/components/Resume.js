@@ -6,57 +6,27 @@ const Resume = () => {
         <div className="resume-page">
             <div className="container">
                 <header className="resume-header">
-                    <h1>Nikhil Reddy Chittepu</h1>
-                    <p className="resume-subtitle">Full-Stack Developer · B.Tech Information Technology</p>
+                    <h1>Nikhil Reddy</h1>
+                    <p className="resume-subtitle">B.Tech – Information Technology (3rd Year)</p>
                     <div className="contact-info">
-                        <span>📍 Hyderabad, Telangana</span>
-                        <span>📞 +91 7995214340</span>
-                        <span>✉️ <a href="mailto:nikhilreddynikhil988@gmail.com">nikhilreddynikhil988@gmail.com</a></span>
-                        <span>🔗 <a href="https://www.linkedin.com/in/chittepu-nikhil-reddy-3a78172b6" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
-                        <span>🐙 <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                        <span>📍 Telangana, India</span>
+                        <span>🔗 LinkedIn: <a href="https://www.linkedin.com/in/chittepu-nikhil-reddy-3a78172b6" target="_blank" rel="noopener noreferrer">chittepu-nikhil-reddy-3a78172b6</a></span>
                         <span>📄 <a href="/pdf/Resume.pdf" download="Nikhil_Reddy_Resume.pdf" className="resume-download-link">Download PDF</a></span>
                     </div>
                 </header>
 
                 <main className="resume-main">
-
                     <section className="resume-section">
-                        <h2>Summary</h2>
-                        <p>Full-Stack Developer and B.Tech Information Technology student skilled in React.js, Next.js, Spring Boot, Node.js, MongoDB, and MySQL. Experienced in building and deploying production-ready web applications, REST APIs, authentication systems, and responsive user interfaces. Passionate about software engineering and solving real-world problems through technology.</p>
+                        <h2>Career Objective</h2>
+                        <p>Motivated B.Tech IT student with hands-on experience in full-stack web development. Passionate about building real-world applications using modern web technologies and eager to apply technical skills in software development roles.</p>
                     </section>
 
                     <section className="resume-section">
                         <h2>Education</h2>
                         <div className="education-item">
                             <h3>B.Tech – Information Technology</h3>
-                            <p>Anurag University, Hyderabad</p>
-                            <p className="date">2023 – 2027</p>
-                        </div>
-                    </section>
-
-                    <section className="resume-section">
-                        <h2>Experience</h2>
-
-                        <div className="education-item">
-                            <h3>Technical Head — 2Carvn</h3>
-                            <p className="date">Jun 2026 – Present</p>
-                            <ul className="resume-list">
-                                <li>Independently designed, developed, and deployed the official 2Carvn platform using Next.js and Express.js.</li>
-                                <li>Lead technical operations, website maintenance, and technology-related decision making for the organization.</li>
-                                <li>Develop digital solutions supporting educational initiatives and organizational activities.</li>
-                                <li>Train and mentor students in Grades 7–9 on HTML, CSS, and web development fundamentals.</li>
-                            </ul>
-                        </div>
-
-                        <div className="education-item" style={{marginTop: '24px'}}>
-                            <h3>Web Development Intern — Unified Mentor</h3>
-                            <p className="date">Jul 2025 – Oct 2025</p>
-                            <ul className="resume-list">
-                                <li>Developed responsive web applications using HTML, CSS, JavaScript, and modern frontend practices.</li>
-                                <li>Collaborated on debugging, Git workflows, deployment, and version control processes.</li>
-                                <li>Worked with real-world project workflows and deployment tools.</li>
-                                <li>Improved understanding of scalable web application architecture and software development lifecycle.</li>
-                            </ul>
+                            <p>Anurag University, Telangana</p>
+                            <p className="date">(3rd Year – R22 Regulation)</p>
                         </div>
                     </section>
 
@@ -64,90 +34,71 @@ const Resume = () => {
                         <h2>Technical Skills</h2>
                         <div className="skills-grid">
                             <div className="skill-category">
-                                <strong>Languages:</strong> Java, JavaScript, C
+                                <strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap, React (Basics)
                             </div>
                             <div className="skill-category">
-                                <strong>Frontend:</strong> HTML5, CSS3, Bootstrap, React.js, Next.js
+                                <strong>Backend:</strong> JavaScript, Node.js (Basics)
                             </div>
                             <div className="skill-category">
-                                <strong>Backend:</strong> Node.js, Express.js, Spring Boot
+                                <strong>Database:</strong> MongoDB, MySQL
                             </div>
                             <div className="skill-category">
-                                <strong>Databases:</strong> MongoDB, MySQL
+                                <strong>Tools:</strong> Git, VS Code, Vercel
                             </div>
                             <div className="skill-category">
-                                <strong>Tools &amp; Platforms:</strong> Git, GitHub, VS Code, Postman, Vercel
-                            </div>
-                            <div className="skill-category">
-                                <strong>Core Concepts:</strong> DBMS, REST APIs, Authentication, Responsive Design, Full-Stack Development, Git Workflows
+                                <strong>Concepts:</strong> DBMS, OOPS, Web Development Fundamentals
                             </div>
                         </div>
                     </section>
 
                     <section className="resume-section">
                         <h2>Projects</h2>
-
                         <div className="project-item">
-                            <h3>
-                                Smart Hostel Complaint &amp; Maintenance Management System &nbsp;·&nbsp;
-                                <a href="https://vercel.app" target="_blank" rel="noopener noreferrer">Live</a>
-                                &nbsp;|&nbsp;
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </h3>
-                            <p><strong>Stack:</strong> React.js · Spring Boot · MySQL</p>
-                            <ul className="resume-list">
-                                <li>Developed a full-stack hostel management platform with complaint registration, tracking, and resolution workflows.</li>
-                                <li>Implemented secure authentication and role-based access control for students and administrators.</li>
-                                <li>Built administrative dashboards with centralized monitoring and status updates.</li>
-                            </ul>
+                            <h3>Civic Issue Reporting System</h3>
+                            <p>Developed a web platform for citizens to report civic issues such as potholes, garbage, and water leakage.</p>
+                            <p>Implemented issue tracking with real-time status updates and location-based reporting.</p>
+                            <p>Improved civic engagement through a clean and user-friendly interface.</p>
                         </div>
-
                         <div className="project-item">
-                            <h3>
-                                Gas Agency Management System &nbsp;·&nbsp;
-                                <a href="https://github.com/Gas-Agency" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </h3>
-                            <p><strong>Stack:</strong> MongoDB · Express.js · React.js · Node.js</p>
-                            <ul className="resume-list">
-                                <li>Built a full-stack gas booking platform with JWT-based authentication and role-based access control.</li>
-                                <li>Integrated booking workflows, payment options, and email notification services.</li>
-                                <li>Developed administrative features for order tracking and operational management.</li>
-                            </ul>
+                            <h3>Student–Teacher Appointment Booking System</h3>
+                            <p>Built an online system that allows students to book appointments with teachers.</p>
+                            <p>Implemented dashboards showing appointment status (pending, approved, rejected).</p>
+                            <p>Enabled communication through messaging features.</p>
                         </div>
-
                         <div className="project-item">
-                            <h3>
-                                Ecoyaan Checkout System &nbsp;·&nbsp;
-                                <a href="https://github.com/Ecoyaan-Checkout" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </h3>
-                            <p><strong>Stack:</strong> Next.js · React</p>
-                            <ul className="resume-list">
-                                <li>Developed an end-to-end e-commerce checkout workflow with SSR, form validation, and state management.</li>
-                                <li>Designed responsive UI with modern checkout and order confirmation flows.</li>
-                            </ul>
+                            <h3>Gas Agency Management System</h3>
+                            <p>Designed a web application for booking gas cylinders online.</p>
+                            <p>Implemented secure user registration and login functionality.</p>
+                            <p>Simplified booking management for customers.</p>
                         </div>
-
                         <div className="project-item">
-                            <h3>
-                                Student–Teacher Appointment Booking System &nbsp;·&nbsp;
-                                <a href="https://vercel.app" target="_blank" rel="noopener noreferrer">Live</a>
-                                &nbsp;|&nbsp;
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </h3>
-                            <p><strong>Stack:</strong> MongoDB · Express.js · React.js · Node.js</p>
-                            <ul className="resume-list">
-                                <li>Built a MERN-based appointment scheduling platform for students and teachers.</li>
-                                <li>Developed RESTful APIs with MongoDB for persistent data and secure authentication.</li>
-                                <li>Improved communication efficiency through centralized scheduling features.</li>
-                            </ul>
+                            <h3>Personal Programming Blog Website</h3>
+                            <p>Created a responsive blog platform to share content on HTML, CSS, and JavaScript.</p>
+                            <p>Added category filtering and search functionality.</p>
+                            <p>Focused on clean UI and beginner-friendly content presentation.</p>
+                        </div>
+                        <div className='project-item'>
+                            <h3>Civic Issue Reporting System</h3>
+                            <p>Developed a web platform for citizens to report civic issues such as potholes, garbage, and water leakage.</p>
+                            <p>Implemented issue tracking with real-time status updates and location-based reporting.</p>
+                            <p>Improved civic engagement through a clean and user-friendly interface.</p>
                         </div>
                     </section>
 
                     <section className="resume-section">
-                        <h2>Certifications</h2>
+                        <h2>Certifications & Learning</h2>
                         <ul className="resume-list">
-                            <li>Web Development Internship Certificate — Unified Mentor</li>
-                            <li>Networking Basics — Cisco Networking Academy</li>
+                            <li>Machine Learning Course (Started May 2025)</li>
+                            <li>Self-learning in Full-Stack Web Development</li>
+                        </ul>
+                    </section>
+
+                    <section className="resume-section">
+                        <h2>Strengths</h2>
+                        <ul className="resume-list">
+                            <li>Strong problem-solving skills</li>
+                            <li>Quick learner and self-motivated</li>
+                            <li>Good understanding of real-world project development</li>
                         </ul>
                     </section>
 
@@ -155,7 +106,6 @@ const Resume = () => {
                         <h2>Declaration</h2>
                         <p>I hereby declare that the information provided above is true to the best of my knowledge.</p>
                     </section>
-
                 </main>
             </div>
         </div>
