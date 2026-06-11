@@ -5,31 +5,31 @@ import Modal from './Modal';
 const projects = [
   {
     id: 1,
-    title: 'Blog-Website',
-    description: 'A personal programming blog website focused on sharing knowledge about HTML, CSS, and JavaScript ',
-    image: './images/p1.png',
-    link: 'https://blog-website-green-three.vercel.app/'
+    title: 'Smart Hostel',
+    description: 'Full-stack hostel complaint and maintenance management platform built with React.js, Spring Boot, and MySQL. Features secure authentication, role-based access control, complaint registration/tracking/resolution workflows, and administrative dashboards.',
+    image: './images/p2.png',
+    link: '#'
   },
   {
     id: 2,
-    title: 'Gas-Agency',
-    description: 'An online Gas Agency Management System that allows users to easily book gas cylinders from home.The website provides secure registration and login features for customers to manage bookings efficiently and conveniently.',
+    title: 'Gas Agency',
+    description: 'Full-stack gas booking and management platform using MongoDB, Express.js, React.js, and Node.js. Implements JWT-based authentication, role-based access control, booking workflows, payment options, email notifications, and admin features for order tracking.',
     image: './images/p2.png',
     link: 'https://gas-agency-ten.vercel.app/'
   },
   {
     id: 3,
-    title: 'ENK-Book',
-    description: 'A Student–Teacher Appointment Booking System that allows students to book, track, and manage appointments with teachers online.The dashboard displays appointment status (pending, approved, rejected) and enables easy communication through messaging features.',
-    image: './images/p3.png',
-    link: 'https://student-teacher-shym.vercel.app/'
+    title: 'Ecoyaan Checkout',
+    description: 'End-to-end e-commerce checkout workflow built with Next.js and React. Features server-side rendering, form validation, state management, responsive user interfaces, and optimized navigation with structured checkout and order confirmation flows.',
+    image: './images/p2.png',
+    link: '#'
   },
   {
     id: 4,
-    title: 'Civic-Portal',
-    description: 'A Civic Issue Reporting Platform that enables citizens to report local problems like potholes, garbage, and water leakage online.Users can track issue status in real time, helping improve city cleanliness, safety, and civic engagement.',
-    image: './images/p4.png',
-    link: 'https://civic-issues-portal.vercel.app/'
+    title: 'Student–Teacher Booking',
+    description: 'MERN-based appointment scheduling platform for students and teachers. Features secure authentication, appointment management workflows, RESTful APIs, MongoDB for persistent storage, and centralized scheduling for improved communication.',
+    image: './images/p2.png',
+    link: 'https://student-teacher-shym.vercel.app/'
   }
 ];
 

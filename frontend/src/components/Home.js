@@ -56,12 +56,12 @@ const Home = () => {
           </div>
           <div className="project-preview">
             <div className="preview-content">
-              <h3>Latest Project</h3>
-              <p>Check out my most recent work where I implemented advanced features using React and Node.js.</p>
+              <h3>Smart Hostel</h3>
+              <p>Full-stack hostel complaint and maintenance management platform built with React.js, Spring Boot, and MySQL — featuring secure authentication, role-based access, and real-time complaint tracking.</p>
               <a href="/projects" className="btn btn-primary">View Project</a>
             </div>
             <div className="preview-image">
-              <img src="./images/p2.png" alt="Latest Project" />
+              <img src="./images/p2.png" alt="Smart Hostel" />
             </div>
           </div>
         </div>

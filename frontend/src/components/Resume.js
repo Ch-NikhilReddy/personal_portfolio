@@ -11,13 +11,17 @@ const Resume = () => {
             <div className="resume-title-block">
               <h1>Nikhil Reddy Chittepu</h1>
               <p className="resume-subtitle">
-                Full-Stack Developer | React.js | Next.js | Spring Boot | Node.js
+                Full-Stack Developer
               </p>
+              <p className="resume-subtitle">
+                 React.js | Next.js | Spring Boot | Node.js | Next.js
+              </p>
+              <p className="resume-location">Hyderabad, India</p>
             </div>
 
             <div className="contact-info">
               <span>📞 <a href="tel:+917995214340">+91 7995214340</a></span>
-              <span>📧 <a href="mailto:nikhil@example.com">nikhil@example.com</a></span>
+              <span>📧 <a href="mailto:nikhilreddynikhil988@gmail.com">Mail</a></span>
               <span>
                 💼
                 <a
@@ -44,7 +48,7 @@ const Resume = () => {
               <a href="/pdf/Resume.pdf" download className="btn btn-primary">
                 Download Resume
               </a>
-              <Link to="/contact" className="btn btn-outline">
+              <Link to="/contact" className="btn btn-outline btn-primary">
                 Contact Me
               </Link>
             </div>
@@ -112,27 +116,45 @@ const Resume = () => {
             </section>
 
             <section className="resume-section">
-              <h2>Projects & Experience</h2>
+              <h2>Projects</h2>
               <div className="project-list">
                 <div className="project-item">
-                  <h3>Civic Issue Reporting System</h3>
+                  <h3>Smart Hostel Complaint & Maintenance Management System</h3>
                   <p>
-                    Developed a platform for reporting civic issues with issue
-                    tracking, status updates, and location-based reporting.
-                  </p>
-                </div>
-                <div className="project-item">
-                  <h3>Student–Teacher Appointment Booking System</h3>
-                  <p>
-                    Built an appointment system with dashboards for pending,
-                    approved, and rejected booking status.
+                    Developed a full-stack hostel management platform using
+                    React.js, Spring Boot, and MySQL. Implemented secure
+                    authentication and role-based access control for students
+                    and administrators. Built complaint registration, tracking,
+                    and resolution workflows with administrative dashboards.
                   </p>
                 </div>
                 <div className="project-item">
                   <h3>Gas Agency Management System</h3>
                   <p>
-                    Designed an online booking system with secure registration,
-                    login, and booking management features.
+                    Built a full-stack gas booking and management platform using
+                    MongoDB, Express.js, React.js, and Node.js. Implemented
+                    JWT-based authentication and role-based access control.
+                    Integrated booking workflows, payment options, and email
+                    notification services.
+                  </p>
+                </div>
+                <div className="project-item">
+                  <h3>Ecoyaan Checkout System</h3>
+                  <p>
+                    Developed an end-to-end e-commerce checkout workflow using
+                    Next.js and React. Implemented server-side rendering, form
+                    validation, and state management. Designed responsive user
+                    interfaces with modern checkout and order confirmation
+                    flows.
+                  </p>
+                </div>
+                <div className="project-item">
+                  <h3>Student–Teacher Appointment Booking System</h3>
+                  <p>
+                    Built a MERN-based appointment scheduling platform for
+                    students and teachers. Implemented secure authentication
+                    and appointment management workflows. Developed RESTful
+                    APIs and integrated MongoDB for persistent data storage.
                   </p>
                 </div>
               </div>
