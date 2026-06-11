@@ -52,11 +52,11 @@ connectDB()
     console.log('Ensure MONGODB_URI env variable is set correctly.');
   });
 
-app.get('/api/health', (req, res) => {
+app.get(['/api/health', '/health'], (req, res) => {
   res.json({ status: 'ok', message: 'API is running' });
 });
 
-app.use('/api/contact', contactRoute);
+app.use(['/api/contact', '/contact'], contactRoute);
 
 // Serve static files from the React build
 const buildPath = path.resolve(__dirname, '../frontend/build');
@@ -93,8 +93,10 @@ app.get('*', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port: ${port}`);
-});
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`Server is running on port: ${port}`);
+  });
+}
 
 module.exports = app;
