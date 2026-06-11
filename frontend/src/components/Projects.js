@@ -8,7 +8,7 @@ const projects = [
     title: 'Smart Hostel',
     description: 'Full-stack hostel complaint and maintenance management platform built with React.js, Spring Boot, and MySQL. Features secure authentication, role-based access control, complaint registration/tracking/resolution workflows, and administrative dashboards.',
     image: './images/p2.png',
-    link: '#'
+    link: 'https://smart-hostel-nu.vercel.app'
   },
   {
     id: 2,
@@ -21,14 +21,14 @@ const projects = [
     id: 3,
     title: 'Ecoyaan Checkout',
     description: 'End-to-end e-commerce checkout workflow built with Next.js and React. Features server-side rendering, form validation, state management, responsive user interfaces, and optimized navigation with structured checkout and order confirmation flows.',
-    image: './images/p2.png',
-    link: '#'
+    image: './images/p1.png',
+    link: 'https://ecoyaan-checkout-three-ebon.vercel.app'
   },
   {
     id: 4,
     title: 'Student–Teacher Booking',
     description: 'MERN-based appointment scheduling platform for students and teachers. Features secure authentication, appointment management workflows, RESTful APIs, MongoDB for persistent storage, and centralized scheduling for improved communication.',
-    image: './images/p2.png',
+    image: './images/p4.png',
     link: 'https://student-teacher-shym.vercel.app/'
   }
 ];
