@@ -56,7 +56,7 @@ app.get(['/api/health', '/health'], (req, res) => {
   res.json({ status: 'ok', message: 'API is running' });
 });
 
-app.use(['/api/contact', '/contact'], contactRoute);
+app.use(['/api/contact', '/contact', '/'], contactRoute);
 
 // Serve static files from the React build
 const buildPath = path.resolve(__dirname, '../frontend/build');
