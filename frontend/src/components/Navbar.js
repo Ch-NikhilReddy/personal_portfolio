@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container navbar-container">
-        <h1 className="logo">My Portfolio</h1>
+        <h1 className="logo">Nikhil Reddy</h1>
         <div className="menu-icon" onClick={toggleMenu}>
           <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
