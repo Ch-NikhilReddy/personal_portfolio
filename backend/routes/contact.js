@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { body, validationResult } = require('express-validator');
 const Message = require('../models/message');
+const connectDB = require('../db');
 
 const { Resend } = require('resend');
 
@@ -21,6 +22,9 @@ const handleContactForm = async (req, res) => {
   const { name, email, subject, message } = req.body;
 
   try {
+    // Ensure database is connected (safe to call repeatedly — cached after first call)
+    await connectDB();
+
     const newMessage = new Message({
       name,
       email,

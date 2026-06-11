@@ -1,8 +1,8 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 const contactRoute = require('./routes/contact');
+const connectDB = require('./db');
 require('dotenv').config();
 
 const app = express();
@@ -42,14 +42,12 @@ app.use(cors({
 app.options('*', cors());
 app.use(express.json());
 
-// Connect to MongoDB
-const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/portfolio';
-
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log(`MongoDB connected to: ${mongoURI.includes('cluster') ? 'Remote Cluster' : 'Local Database'}`))
+// Connect to MongoDB with serverless caching
+connectDB()
+  .then(() => console.log('MongoDB connected'))
   .catch(err => {
-    console.error('MongoDB connection error:', err);
-    console.log('Ensure MongoDB is running locally if you are in offline mode.');
+    console.error('MongoDB connection error:', err.message);
+    console.log('Ensure MONGODB_URI env variable is set correctly.');
   });
 
 app.get('/api/health', (req, res) => {
