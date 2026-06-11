@@ -14,6 +14,7 @@ const validateContactForm = [
 ];
 
 const handleContactForm = async (req, res) => {
+  console.log('Contact route hit:', req.method, req.originalUrl);
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });

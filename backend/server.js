@@ -39,8 +39,8 @@ app.use(cors({
   },
   credentials: true
 }));
-// Ensure preflight OPTIONS requests are handled
-app.options('/api/*', cors());
+// Ensure preflight OPTIONS requests are handled for both /api and stripped /contact paths
+app.options(['/api/*', '/contact', '/api/contact'], cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -56,7 +56,7 @@ app.get(['/api/health', '/health'], (req, res) => {
   res.json({ status: 'ok', message: 'API is running' });
 });
 
-app.use(['/api/contact', '/contact', '/'], contactRoute);
+app.use(['/api/contact', '/contact'], contactRoute);
 
 // Serve static files from the React build
 const buildPath = path.resolve(__dirname, '../frontend/build');
