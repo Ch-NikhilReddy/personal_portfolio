@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const contactRoute = require('./routes/contact');
 const connectDB = require('./db');
-require('dotenv').config();
+require('dotenv').config({ path: __dirname + '/.env' });
 
 const app = express();
 // Log incoming requests for debugging on Vercel

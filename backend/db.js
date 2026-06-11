@@ -12,7 +12,10 @@ async function connectDB() {
   }
 
   if (!cached.promise) {
-    const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/portfolio';
+    const mongoURI = process.env.MONGODB_URI;
+    if (!mongoURI) {
+      throw new Error('MONGODB_URI environment variable is not set. Copy .env.example to .env and configure it.');
+    }
 
     cached.promise = mongoose.connect(mongoURI, {
       useNewUrlParser: true,
