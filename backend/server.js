@@ -40,8 +40,9 @@ app.use(cors({
   credentials: true
 }));
 // Ensure preflight OPTIONS requests are handled
-app.options('*', cors());
+app.options('/api/*', cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB with serverless caching
 connectDB()
