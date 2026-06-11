@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+Sitemap: https://personal-portfolio-one-dusky-17.vercel.app/sitemap.xml
