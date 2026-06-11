@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: 'Gas Agency',
     description: 'Full-stack gas booking and management platform using MongoDB, Express.js, React.js, and Node.js. Implements JWT-based authentication, role-based access control, booking workflows, payment options, email notifications, and admin features for order tracking.',
-    image: './images/p2.png',
+    image: './images/p3.png',
     link: 'https://gas-agency-ten.vercel.app/'
   },
   {
