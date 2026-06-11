@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://personal-portfolio-one-dusky-17.vercel.app/sitemap.xml
+Sitemap: https://nikhilreddy.dpdns.org/sitemap.xml
