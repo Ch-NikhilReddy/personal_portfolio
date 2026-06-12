@@ -45,7 +45,7 @@ const Resume = () => {
             </div>
 
             <div className="header-actions">
-              <a href="/pdf/Resume.pdf" download className="btn btn-primary">
+              <a href="/pdf/Ch_NikhilReddy.pdf" download className="btn btn-primary">
                 Download Resume
               </a>
               <Link to="/contact" className="btn btn-outline btn-primary">
