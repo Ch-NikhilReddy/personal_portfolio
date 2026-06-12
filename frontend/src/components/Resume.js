@@ -25,7 +25,7 @@ const Resume = () => {
               <span>
                 💼
                 <a
-                  href="https://www.linkedin.com/in/chittepu-nikhil-reddy-3a78172b6"
+                  href="https://www.linkedin.com/in/ch-nikhil-reddy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
