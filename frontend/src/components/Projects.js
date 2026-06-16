@@ -30,6 +30,13 @@ const projects = [
     description: 'MERN-based appointment scheduling platform for students and teachers. Features secure authentication, appointment management workflows, RESTful APIs, MongoDB for persistent storage, and centralized scheduling for improved communication.',
     image: './images/p4.png',
     link: 'https://student-teacher-shym.vercel.app/'
+  },
+{
+    id: 5,
+    title: 'Civic Issues Portal',
+    description: 'Full-stack web platform enabling citizens to report civic issues like potholes, garbage, and streetlight faults with photo evidence and GPS-based location via Leaflet/OpenStreetMap. Features role-based access for citizens, municipal admins, and field workers, JWT authentication, and complete complaint lifecycle tracking (pending → assigned → in-progress → resolved).',
+    image: './images/p5.png',
+    link: 'https://your-civic-issues-portal-url.vercel.app/'
   }
 ];
 
